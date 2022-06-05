@@ -1,0 +1,26 @@
+body {
+    background-image: linear-gradient(rgb(43, 43, 43), black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.headerDiv {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+.header {
+    display: inline;
+    position: absolute;
+    margin: 0;
+    top: 5px;
+    left: calc(50vw - 130px);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#modalButton {
+    border: 3px solid white;
+    background-color: transparent;
+    float: right;
+}
